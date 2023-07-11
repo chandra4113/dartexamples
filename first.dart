@@ -12,6 +12,7 @@ void main() {
   print("addion of d = ${c + d}");
   print(d = a + b);
   print(i);
+  print(f);
   print(a + b);
   print(a * b);
   print("percentage of ${a % b}");
