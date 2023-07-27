@@ -8,3 +8,13 @@ void main() {
   }
   print("prime number : ${prime}");
 }
+
+void main() {
+  int? num;
+  //
+  //isPrime(num);
+  print("enter a number");
+  var input = stdin.readLineSync();
+  num = int.parse(input!);
+  isPrime(num);
+}
