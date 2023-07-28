@@ -1,4 +1,4 @@
-/*void main() {
+/*void main(){
   var list = [10, 9, 13, 45, 34, 76, 68, 69, 87, 54, 58, 69, 67];
 
   var set = {10, 9, 13, 45, 34, 76, 68, 69, 87, 54, 58, 69, 67};
@@ -78,8 +78,7 @@ void main() {
 }
   var l2 = [02];
 
-  for (var i = 0; i < l1.Length; i++) {
-    result = l1[i] * l2[i]
+  for (var i = 0; i < l1.length; i++) {
+   var result =( l1[i]*l2);
+    print(result);
   }
-  if
-  print(multiplicationlist);
